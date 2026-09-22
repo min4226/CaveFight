@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: dbde6fdf1b53c284ea86945da8023477
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8592451220414592336
+    second: Cave Spider Spritesheet_0
+  - first:
+      213: -2776198818433001735
+    second: Cave Spider Spritesheet_1
+  - first:
+      213: -7782883465417335378
+    second: Cave Spider Spritesheet_2
+  - first:
+      213: -409487391517349749
+    second: Cave Spider Spritesheet_3
+  - first:
+      213: 5604096142444099996
+    second: Cave Spider Spritesheet_4
+  - first:
+      213: -4819617589643997880
+    second: Cave Spider Spritesheet_5
+  - first:
+      213: -3079815998805751240
+    second: Cave Spider Spritesheet_6
+  - first:
+      213: -3390217971697283428
+    second: Cave Spider Spritesheet_7
+  - first:
+      213: 1004355440827333875
+    second: Cave Spider Spritesheet_8
+  - first:
+      213: -6040884723079501962
+    second: Cave Spider Spritesheet_9
+  - first:
+      213: -343394647132268090
+    second: Cave Spider Spritesheet_10
+  - first:
+      213: -7738173071035372376
+    second: Cave Spider Spritesheet_11
+  - first:
+      213: 422425119172374608
+    second: Cave Spider Spritesheet_12
+  - first:
+      213: -8325217274362815950
+    second: Cave Spider Spritesheet_13
+  - first:
+      213: -7403946686401168904
+    second: Cave Spider Spritesheet_14
+  - first:
+      213: -3449041945722899538
+    second: Cave Spider Spritesheet_15
+  - first:
+      213: -1182095102357370238
+    second: Cave Spider Spritesheet_16
+  - first:
+      213: -7123212772673747630
+    second: Cave Spider Spritesheet_17
+  - first:
+      213: -7519748501293629302
+    second: Cave Spider Spritesheet_18
+  - first:
+      213: 5940267598018689360
+    second: Cave Spider Spritesheet_19
+  - first:
+      213: -9013609929532569763
+    second: Cave Spider Spritesheet_20
+  - first:
+      213: -334277593271805878
+    second: Cave Spider Spritesheet_21
+  - first:
+      213: 6909479755150626935
+    second: Cave Spider Spritesheet_22
+  - first:
+      213: -1415535163546771630
+    second: Cave Spider Spritesheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba0159c32b71c880800000000000000
+      internalID: -8592451220414592336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 127
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6117132e5f879d0800000000000000
+      internalID: -2776198818433001735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 127
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadd98349b4adf390800000000000000
+      internalID: -7782883465417335378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 127
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b886b901365315af0800000000000000
+      internalID: -409487391517349749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 127
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c997481ffbfb5cd40800000000000000
+      internalID: 5604096142444099996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 127
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d8b0076574d1db0800000000000000
+      internalID: -4819617589643997880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a4e99aaab4245d0800000000000000
+      internalID: -3079815998805751240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 95
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e86d587b683f0d0800000000000000
+      internalID: -3390217971697283428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 95
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc7ebeb3ff20fd00800000000000000
+      internalID: 1004355440827333875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67723cfa9577a2ca0800000000000000
+      internalID: -6040884723079501962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 95
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c919e743640c3bf0800000000000000
+      internalID: -343394647132268090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 95
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac617a279c7c9490800000000000000
+      internalID: -7738173071035372376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050b8746861ccd500800000000000000
+      internalID: 422425119172374608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a98a37ff2e67c80800000000000000
+      internalID: -8325217274362815950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 63
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9b02d67b5ef3990800000000000000
+      internalID: -7403946686401168904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 63
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3b3c9cf9a8220d0800000000000000
+      internalID: -3449041945722899538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a824574ca589fe0800000000000000
+      internalID: -1182095102357370238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255814149b3452d90800000000000000
+      internalID: -7123212772673747630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a800e14549c74a790800000000000000
+      internalID: -7519748501293629302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059baa258e1107250800000000000000
+      internalID: 5940267598018689360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d570746768939e280800000000000000
+      internalID: -9013609929532569763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4859accc486c5bf0800000000000000
+      internalID: -334277593271805878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7709184ba3763ef50800000000000000
+      internalID: 6909479755150626935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Spider Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f58b1c4420b5ce0800000000000000
+      internalID: -1415535163546771630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cave Spider Spritesheet_0: -8592451220414592336
+      Cave Spider Spritesheet_1: -2776198818433001735
+      Cave Spider Spritesheet_10: -343394647132268090
+      Cave Spider Spritesheet_11: -7738173071035372376
+      Cave Spider Spritesheet_12: 422425119172374608
+      Cave Spider Spritesheet_13: -8325217274362815950
+      Cave Spider Spritesheet_14: -7403946686401168904
+      Cave Spider Spritesheet_15: -3449041945722899538
+      Cave Spider Spritesheet_16: -1182095102357370238
+      Cave Spider Spritesheet_17: -7123212772673747630
+      Cave Spider Spritesheet_18: -7519748501293629302
+      Cave Spider Spritesheet_19: 5940267598018689360
+      Cave Spider Spritesheet_2: -7782883465417335378
+      Cave Spider Spritesheet_20: -9013609929532569763
+      Cave Spider Spritesheet_21: -334277593271805878
+      Cave Spider Spritesheet_22: 6909479755150626935
+      Cave Spider Spritesheet_23: -1415535163546771630
+      Cave Spider Spritesheet_3: -409487391517349749
+      Cave Spider Spritesheet_4: 5604096142444099996
+      Cave Spider Spritesheet_5: -4819617589643997880
+      Cave Spider Spritesheet_6: -3079815998805751240
+      Cave Spider Spritesheet_7: -3390217971697283428
+      Cave Spider Spritesheet_8: 1004355440827333875
+      Cave Spider Spritesheet_9: -6040884723079501962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

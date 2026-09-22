@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71bd16d38076464c9bbb5635699dd75, type: 3}
+  m_Name: Potion 3
+  m_EditorClassIdentifier: Assembly-CSharp::Treasure
+  treasureItemPrefab: {fileID: 2696933369444825675, guid: 98a1ecb712b08b34b9ac42944f2e4891, type: 3}
+  treasureItemName: "\uCCB4\uB825 \uC99D\uAC00 \uD3EC\uC158"
+  treasureItemDescription: "\uC774 \uD3EC\uC158\uC744 \uBA39\uC73C\uBA74 \uCCB4\uB825\uC774
+    \uC99D\uAC00"
+  treasureItemType: 1
+  treasureItemEffect: 0
+  treasureItemEffectValue: 2

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1940ff219829e3549a602b9bbaf81f7c, type: 3}
+  m_Name: Solider
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterData
+  monsterType: 5
+  detectionRange: 2
+  moveSpeed: 3
+  attackRange: 2
+  attackDamage: 12
+  maxHp: 100
+  monsterEquipment:
+  - {fileID: 2076592928585541622, guid: aaa2011bd77a18140af9fc3a08132bff, type: 3}
+  - {fileID: 2076592928585541622, guid: 1af8970c14621444699e604ae4cf8a99, type: 3}
