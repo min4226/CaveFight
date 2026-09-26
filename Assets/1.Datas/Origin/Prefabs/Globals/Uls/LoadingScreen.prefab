@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -459}
+  m_AnchoredPosition: {x: 0, y: -429}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4139470775792791712
@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   requiredUI: []
+  closeWithScreen: 
   progressBar: {fileID: 8429590491736363930}
   progressText: {fileID: 1294097652439264424}
   explainText: {fileID: 2542436107612325902}
@@ -266,7 +267,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: -14.4
       objectReference: {fileID: 0}
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_Pivot.y
@@ -290,11 +291,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 905.1
+      value: 397.3
       objectReference: {fileID: 0}
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 169
+      value: 92.1
       objectReference: {fileID: 0}
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -326,11 +327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -960
+      value: -6281
       objectReference: {fileID: 0}
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 177
+      value: 144
       objectReference: {fileID: 0}
     - target: {fileID: 3161949013132064887, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -347,10 +348,6 @@ PrefabInstance:
     - target: {fileID: 6874791251193860438, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_Name
       value: LoadingBar
-      objectReference: {fileID: 0}
-    - target: {fileID: 8288301244522171398, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
-      propertyPath: m_TargetGraphic
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8645394919221659226, guid: 1a65101e417cf5f459d5d4a7f8cfc29d, type: 3}
       propertyPath: m_AnchorMax.x

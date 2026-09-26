@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8809390715706013327}
   - component: {fileID: 5086069191091131761}
   - component: {fileID: 4379540320390680849}
+  - component: {fileID: 5385816911239508900}
   m_Layer: 6
   m_Name: Treasuere 1
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.2125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6281639958927201261}
@@ -151,12 +152,28 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.75
+--- !u!114 &5385816911239508900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2696933369444825675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9f9bbc8556b434292cb85856550664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TreasureChest
+  stage: {fileID: 11400000, guid: 8e8ccb2ab6a57bd46928f08f268640af, type: 2}
+  treasureIndex: 2
+  spawnPoint: {fileID: 6281639958927201261}
+  openedSprite: {fileID: -6395520881865922288, guid: 04fe43aa2b22eab4c8edb44062e5a1a5, type: 3}
 --- !u!1 &3000319793161319159
 GameObject:
   m_ObjectHideFlags: 0

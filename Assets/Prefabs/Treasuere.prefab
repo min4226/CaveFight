@@ -173,6 +173,7 @@ MonoBehaviour:
   stage: {fileID: 11400000, guid: 8e8ccb2ab6a57bd46928f08f268640af, type: 2}
   treasureIndex: 0
   spawnPoint: {fileID: 1912815659040258751}
+  openedSprite: {fileID: 4733216852403347490, guid: 04fe43aa2b22eab4c8edb44062e5a1a5, type: 3}
 --- !u!1 &3384680364427660555
 GameObject:
   m_ObjectHideFlags: 0

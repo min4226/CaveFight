@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public enum UIType
 {
-    None, Loading, Title, Movable, Menu, Info, Option, Battle, GameQuit, CharacterSet, Stage, Inventory,
+    None, Loading, Title, Movable, Menu, Info, Option, Battle, GameQuit, CharacterSet, Stage, Inventory, Bag,
     _Length
 }
 
@@ -31,7 +31,8 @@ public class UIManager : ManagerBase
         new (UIType.Option, "OptionScreen"),
         new(UIType.CharacterSet, "CharacterSelectWindow"),
         new(UIType.Stage, "OptionWindow"),
-        new(UIType.Inventory , "Inventory"),
+        new(UIType.Inventory , "StageUI"),
+        new(UIType.Bag, "Inventory"),
     };
 
     Canvas _mainCanvas;

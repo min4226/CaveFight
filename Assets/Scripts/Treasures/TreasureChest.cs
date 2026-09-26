@@ -6,6 +6,9 @@ public class TreasureChest : MonoBehaviour
     [SerializeField] int treasureIndex;
     [SerializeField] Transform spawnPoint;
 
+    // 상자가 열렸을 때 사용할 이미지
+    [SerializeField] Sprite openedSprite;
+
     private bool isOpened = false;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -23,6 +26,7 @@ public class TreasureChest : MonoBehaviour
         }
 
         Debug.Log("Player 태그 확인!");
+
         OpenChest();
     }
 
@@ -32,6 +36,9 @@ public class TreasureChest : MonoBehaviour
             return;
 
         isOpened = true;
+
+        // 보물상자를 열린 모습으로 변경
+        GetComponent<SpriteRenderer>().sprite = openedSprite;
 
         Treasure treasure = stage.stageTreasures[treasureIndex];
 

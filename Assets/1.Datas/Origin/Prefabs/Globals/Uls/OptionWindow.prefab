@@ -97,7 +97,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 798, y: 455}
+  m_AnchoredPosition: {x: 718, y: 413}
   m_SizeDelta: {x: 253.6, y: 67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1676438516578603899
@@ -1457,11 +1457,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 529537852044237166, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 2389
       objectReference: {fileID: 0}
     - target: {fileID: 529537852044237166, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 1587
       objectReference: {fileID: 0}
     - target: {fileID: 529537852044237166, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1513,47 +1513,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1417087682667027174, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1417087682667027174, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1417087682667027174, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1902363772538269305, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845463445003662745, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845463445003662745, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845463445003662745, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 2708250650955604794}
-    - target: {fileID: 3845463445003662745, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845463445003662745, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Open
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845463445003662745, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI_Button_OpenScreen, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3845463445003662745, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4810174539333002615, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1576,17 +1544,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
---- !u!114 &2708250650955604794 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1443343359275787720, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}
-  m_PrefabInstance: {fileID: 3572034816157189874}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 173aa1a12ddbc0741a7cdc808aea2fb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UI_Button_OpenScreen
 --- !u!224 &3948286209693376412 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 529537852044237166, guid: 71c2a44cccb5ffd43ae05fca199924ea, type: 3}

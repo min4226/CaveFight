@@ -26867,14 +26867,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Treasuere 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4379540320390680849, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8562359777560539054, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2125
-      objectReference: {fileID: 0}
     - target: {fileID: 8562359777560539054, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
       propertyPath: m_LocalPosition.x
       value: -135.5592
@@ -26918,41 +26910,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2696933369444825675, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 64982084}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
 --- !u!4 &64982081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8562359777560539054, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
   m_PrefabInstance: {fileID: 64982080}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &64982082 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6281639958927201261, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
-  m_PrefabInstance: {fileID: 64982080}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &64982083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2696933369444825675, guid: a670a6800f3b83d409dfa078d0c71c03, type: 3}
-  m_PrefabInstance: {fileID: 64982080}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &64982084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64982083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc9f9bbc8556b434292cb85856550664, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TreasureChest
-  stage: {fileID: 11400000, guid: 8e8ccb2ab6a57bd46928f08f268640af, type: 2}
-  treasureIndex: 2
-  spawnPoint: {fileID: 64982082}
 --- !u!1 &68270584
 GameObject:
   m_ObjectHideFlags: 0
@@ -40551,7 +40515,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2696933369444825675, guid: 5d11a546aa0123540a04a81c5b979728, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 431547299}
   m_SourcePrefab: {fileID: 100100000, guid: 5d11a546aa0123540a04a81c5b979728, type: 3}
 --- !u!4 &258324235 stripped
 Transform:
@@ -40651,6 +40618,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 259012910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &431547295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2696933369444825675, guid: 5d11a546aa0123540a04a81c5b979728, type: 3}
+  m_PrefabInstance: {fileID: 258324234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &431547299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431547295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9f9bbc8556b434292cb85856550664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TreasureChest
+  stage: {fileID: 11400000, guid: e9a95d1b8b682c44da18de2715dba25c, type: 2}
+  treasureIndex: 0
+  spawnPoint: {fileID: 1241675113}
+  openedSprite: {fileID: -7715280119317800175, guid: 04fe43aa2b22eab4c8edb44062e5a1a5, type: 3}
 --- !u!1 &473227563
 GameObject:
   m_ObjectHideFlags: 0
@@ -50620,6 +50608,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 169147477}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1241675113 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3608366062612026083, guid: 5d11a546aa0123540a04a81c5b979728, type: 3}
+  m_PrefabInstance: {fileID: 258324234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1273647669
 GameObject:
   m_ObjectHideFlags: 0
@@ -97642,14 +97635,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Treasuere 3
       objectReference: {fileID: 0}
-    - target: {fileID: 4379540320390680849, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8562359777560539054, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.1625
-      objectReference: {fileID: 0}
     - target: {fileID: 8562359777560539054, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -197.64551
@@ -97693,41 +97678,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2696933369444825675, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1919974023}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
 --- !u!4 &1919974020 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8562359777560539054, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
   m_PrefabInstance: {fileID: 1919974019}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1919974021 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6867262828895514218, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
-  m_PrefabInstance: {fileID: 1919974019}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1919974022 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2696933369444825675, guid: 7178407fa12e58d48a2935fa2d38d92b, type: 3}
-  m_PrefabInstance: {fileID: 1919974019}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1919974023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919974022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc9f9bbc8556b434292cb85856550664, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TreasureChest
-  stage: {fileID: 11400000, guid: 8e8ccb2ab6a57bd46928f08f268640af, type: 2}
-  treasureIndex: 1
-  spawnPoint: {fileID: 1919974021}
 --- !u!1 &1925576249
 GameObject:
   m_ObjectHideFlags: 0

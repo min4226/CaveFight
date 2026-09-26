@@ -28,7 +28,7 @@ public class CharacterCustomize : MonoBehaviour
 
     void Awake()
     {
-        GameObject character = GameObject.FindWithTag("Character");
+        GameObject character = GameObject.FindWithTag("DecoCharacter");
 
         Transform hair = character.transform.Find("Hair");
         Transform top = character.transform.Find("Tops");
@@ -40,6 +40,8 @@ public class CharacterCustomize : MonoBehaviour
         if (top != null) topRenderer = top.GetComponent<Image>();
         if (bottom != null) bottomRenderer = bottom.GetComponent<Image>();
         if (shoes != null) shoesRenderer = shoes.GetComponent<Image>();
+
+        
     }
     public void ChangeHair(int index)
     {
@@ -164,7 +166,6 @@ public class CharacterCustomize : MonoBehaviour
         
         PlayerPrefs.Save();
 
-        Debug.Log("캐릭터 커스터마이징 정보가 저장되었습니다!");
     }
 
     public void LoadCustomization()

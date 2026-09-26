@@ -18,6 +18,6 @@ public class Treasure : ScriptableObject
     public string treasureItemName;
     public string treasureItemDescription;
     public TreasureItemType treasureItemType;
-    public TreasureEffectItemType treasureItemEffect;
-    public float treasureItemEffectValue;
+    public TreasureEffectItemType treasureItemEffect; // 아이템 효과 타입
+    public float treasureItemEffectValue; // 아이템 효과 수치
 }
